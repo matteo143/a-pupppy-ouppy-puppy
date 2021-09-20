@@ -1,0 +1,13 @@
+game.setDialogTextColor(9)
+game.splash("ayo happy birtday or not ", "not happybirtday")
+tiles.setTilemap(tilemap`skeppys home`)
+let mySprite = sprites.create(assets.image`skeppy`, SpriteKind.Player)
+controller.moveSprite(mySprite)
+mySprite.setBounceOnWall(false)
+effects.confetti.startScreenEffect()
+game.splash("happybirtday yeyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
+forever(function () {
+    music.baDing.play()
+    music.wawawawaa.play()
+    music.playMelody("- C5 E D B E F C ", 120)
+})
